@@ -20,7 +20,7 @@ from django.urls import path
 from django.views.generic import TemplateView
 from django.contrib.auth.views import LoginView, LogoutView
 
-from example.profiles.forms import AuthenticationForm
+from unique_user_email.forms import AuthenticationForm
 
 urlpatterns = [
     path("admin/", admin.site.urls),

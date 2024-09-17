@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7da7d5a209e07dcf89cda3a4cd84a756e74d7f8a8504db93689a26a34c494be4"
+            "sha256": "c9de554a668ed255234269b1425c0c60c0ce64103b94cc01e2a8a56f3b5e7792"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -51,12 +51,9 @@
             "version": "==2.3"
         },
         "django-unique-user-email": {
-            "hashes": [
-                "sha256:1da83203fcecedcf57da8542fa67ce24ff89f6b16be082448da836e61be69d05",
-                "sha256:cf613006ef0112f4952eebccc3d8e1df1583abac90550eb20abd02d8834e6219"
-            ],
-            "index": "pypi",
-            "version": "==23.2"
+            "editable": true,
+            "git": "git+https://github.com/tchappui/django-unique-user-email.git",
+            "ref": "fb2fc820043eb6fc6b769d7dfa7c7a18eca1419e"
         },
         "sqlparse": {
             "hashes": [

@@ -5,8 +5,8 @@ name = "pypi"
 
 [packages]
 django = "*"
-django-unique-user-email = "*"
 crispy-tailwind = "*"
+django-unique-user-email = {editable = true, ref = "translations", git = "git+https://github.com/tchappui/django-unique-user-email.git"}
 
 [dev-packages]
 
